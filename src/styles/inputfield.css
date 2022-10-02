@@ -1,0 +1,18 @@
+
+
+.input-field{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: .6rem 2rem .6rem .2rem ;
+    margin:10px 20px 20px 20px;
+    width:400px;
+}
+
+@media only screen and (max-width: 600px){
+    .input-field{
+        overflow: hidden;
+        width: 350px;
+        margin:10px;
+    }
+}
